@@ -1,0 +1,74 @@
+.container-fluid {
+    background-color: rgb(83, 107, 107);
+}
+a,
+.nav-link,
+.dropdown-item {
+color: rgb(247, 247, 250) !important;
+}
+.dropdown-menu {
+background-color: rgb(9, 168, 168);
+}
+.row  {
+margin: 20px;
+}
+.card {
+margin-top: 10px;
+}
+.col-sm-8 {
+margin-top: 10px;
+}
+.carousel-inner ,.card {
+box-shadow: 10px 10px 5px 5px rgb(109, 102, 102);
+}
+
+@media screen and (max-width:768px) {
+main,.row , .card ,.col-sm-4  {
+    
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;  
+
+}
+header {
+    background-color: rgb(83, 107, 107);
+}
+.container  {
+margin-top: 0% !important;
+}
+}
+.card {
+
+border-radius: 1%; 
+height: 53%;  
+}
+.carousel-inner {
+border-radius: 1%;
+}
+.card-re {
+padding: 10px;
+}
+.secondaire {
+padding: 50px;
+margin-left: 0px;
+}
+aside {
+margin-left: 9%;
+width: 100%;
+
+}
+#carte {
+border-radius: 1%;
+height: 98%;
+}
+#carte2 {
+height: 5%;
+
+}
+.footerr  {
+height: 3em;
+text-align: center;
+
+background-color: rgb(83, 107, 107);
+}
