@@ -5,63 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Ma page Bootstrap</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <style>
-    .container-fluid {
-        background-color: rgb(83, 107, 107);
-    }
-    a,
-.nav-link,
-.dropdown-item {
-  color: rgb(247, 247, 250) !important;
-}
-.dropdown-menu {
-    background-color: rgb(9, 168, 168);
-}
-.row  {
-   margin: 20px;
-}
-.card {
-    margin-top: 10px;
-}
-.col-sm-8 {
-    margin-top: 10px;
-}
-.carousel-inner ,.card {
-    box-shadow: 10px 10px 5px 5px rgb(109, 102, 102);
-}
-
-@media screen and (max-width:768px) {
-    main,.row , .card ,.col-sm-4  {
-    background-color: rgb(220, 233, 233);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-    gap: 20px;
-}
-}
-.card {
-    margin:10 ;
-    border-radius: 1%; 
-    height: 53%;  
-}
-.carousel-inner {
-    border-radius: 1%;
-}
-.card-re {
-    padding: 10px;
-}
-.secondaire {
-    padding: 50px;
-    margin-left: 0px;
-}
-aside {
-  margin-left: 9%;
-  width: 100%;
+  <link rel="stylesheet" href="style2.css">
   
-}
-  </style>
 </head>
 <body>
 
@@ -116,20 +61,20 @@ aside {
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <video src="megane1.MP4" class="d-block w-100" alt="..." autoplay loop muted playsinline></video>
+                    <video src="megane1.MP4" class="d-block w-100" alt="video megane" autoplay loop muted playsinline></video>
                   </div>
                   <div class="carousel-item">
-                    <video src="megane2.MP4" class="d-block w-100" alt="..." autoplay loop muted playsinline></video>
+                    <video src="megane2.MP4" class="d-block w-100" alt="video megane" autoplay loop muted playsinline></video>
                   </div>
                   <div class="carousel-item">
-                    <video src="megane3.MP4" class="d-block w-100" alt="..." autoplay loop muted playsinline></video>
+                    <video src="megane3.MP4" class="d-block w-100" alt="video megane" autoplay loop muted playsinline></video>
                   </div>
                 </div>
               </div>
               <div class="card " >
                 <div class="row g-0">
                   <div class="col-md-4">
-                    <img src="megane5.jpg" class="img-fluid rounded-start" alt="...">
+                    <img src="megane5.jpg" class="img-fluid rounded-start" alt="megane">
                   </div>
                   
                   <div class="col-md-8">
@@ -140,32 +85,37 @@ aside {
                     </div>
                     <div class="card-re">
                         
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                      <h5 class="card-title">Mégane RS : la puissance à l'état pur</h5>
+                      <p class="card-text">Avec son châssis affûté et son moteur explosif, la Mégane RS incarne l'ADN sportif de Renault. Une vraie référence sur circuit comme sur route.</p>
+                      
                     </div>
                    
-                    <div class="card-re">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                      </div>
+                    
                      
                   </div>
+                  <div class="col-md-4" id="carte2">
+                    
+                    <video src="clioJaune.MP4" class="img-fluid rounded-start" alt="clioRS"  autoplay loop muted playsinline></video>
+                  </div>
+                  <div class="col-md-8"><h5 class="card-title">Clio 3 RS : compacte, mais redoutable</h5>
+                    <p class="card-text">Un concentré de sensations dans un format urbain. La Clio 3 RS séduit par sa précision et son tempérament joueur, taillée pour les amateurs de conduite</p>
+</div>
+                 
+
                 </div>
               </div>
         </div>
         
           <div class="col-sm-4">
             <div class="card" >
-            <img src="meganeRs2.jpg" class="card-img-top" alt="...">
+            <img src="meganeRs2.jpg" class="card-img-top" alt="meganeRS">
             <div class="card-body">
               <p class="card-text">La Renault Mégane RS, une silhouette affûtée et un design qui ne laisse personne indifférent.
                  Prête à dominer la route, chaque détail reflète la puissance qui se cache sous le capot.</p>
             </div>
           </div>
           <div class="card" >
-            <img src="renault-megane-6609208.jpg" class="card-img-top" alt="...">
+            <img src="renault-megane-6609208.jpg" class="card-img-top" alt="megane">
             <div class="card-body">
               <p class="card-text">À l'intérieur, la Mégane RS vous enveloppe de sportivité. Des sièges baquets aux commandes précises, 
                 chaque élément est conçu pour offrir une expérience de conduite intense et confortable.</p>
@@ -177,21 +127,22 @@ aside {
         
         </div>
       </div>
-  </main>
-  <aside>
-    <div class="container secondaire text-center">
+    </main>
+    
+    <div class="container  text-center" style="margin-top: 80px;">
         <div class="row">
-          <div class="col-sm-8"   style="border: 1px solid rebeccapurple;">
+          <div class="col-sm-8"   >
             <div id="carouselExampleAutoplaying"  class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <video src="p208.mp4" class="d-block w-100" alt="..." autoplay loop muted playsinline></video>
+                    <img src="208.PNG" class="d-block w-100" alt="208">
+                    
                   </div>
                   <div class="carousel-item">
-                    <video src="peugeot2.mp4" class="d-block w-100" alt="..." autoplay loop muted playsinline></video>
+                    <img src="508.PNG" class="d-block w-100" alt="508">
                   </div>
                   <div class="carousel-item">
-                    <video src="peugeot3.mp4" class="d-block w-100" alt="..." autoplay loop muted playsinline></video>
+                    <video src="p208Rrallye.MP4" class="d-block w-100" alt="208 Rallye"  autoplay loop muted playsinline ></video>
                   </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
@@ -204,27 +155,31 @@ aside {
                 </button>
               </div>
           </div>
-          <div class="col-sm-4"><div class="card" >
-            <img src="renault-megane-6609208.jpg" class="card-img-top" alt="...">
+          <div class="col-sm-4"><div class="card" id="carte" >
+            <img src="clioPiste.jpg" class="card-img-top" alt="clio3">
 
             <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <h5>Clio 3 RS Touring : la sportive au quotidien</h5>
+              <p class="card-text">Avec son moteur 2.0L de 203 chevaux et son châssis affûté, la Clio 3 RS Touring offre un vrai plaisir de conduite. Elle allie sensations sportives et praticité au quotidien,
+                 grâce à ses 5 portes, un bon volume de coffre et un confort appréciable. Une vraie petite bombe, taillée pour tous les trajets.</p>
             </div>
           </div></div>
         </div>
         <div class="row">
-          <div class="col-sm">col-sm</div>
-          <div class="col-sm">col-sm</div>
-          <div class="col-sm">col-sm</div>
+          <div class="col-sm"></div>
+          <div class="col-sm"></div>
+          <div class="col-sm"></div>
         </div>
       </div>
-  </aside>
-
+    
+    
 
     
   <!-- Pied de page -->
   <footer class="bg-light text-center text-muted py-3 mt-5">
+    <div class="footerr">
     &copy; 2025 Julien. Tous droits réservés.
+  </div>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
